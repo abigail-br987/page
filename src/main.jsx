@@ -35,7 +35,11 @@ const router=createBrowserRouter([
     element: <Home></Home>
   },
   {
-    path: "",
+    path: "*",
+    element: <Home></Home>
+  },
+  {
+    path: "foreveryoung/home",
     element: <Home></Home>
   },
   
