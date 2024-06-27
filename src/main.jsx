@@ -34,6 +34,12 @@ const router=createBrowserRouter([
     path: "foreveryoung",
     element: <Home></Home>
   },
+  {
+    path: "",
+    element: <Home></Home>
+  },
+  
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
