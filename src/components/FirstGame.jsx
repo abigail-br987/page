@@ -6,12 +6,12 @@ import React, { useState, useEffect, useRef } from "react";
 
 const FirstGame = () => {
     const animation = [
-        "src/assets/personita1.png",
-        "src/assets/personita2.png",
-        "src/assets/personita3.png",
-        "src/assets/personita4.png",
-        "src/assets/personita5.png",
-        "src/assets/personita7.png"
+        "public/personita1.png",
+        "public/personita2.png",
+        "public/personita3.png",
+        "public/personita4.png",
+        "public/personita5.png",
+        "public/personita7.png"
     ];
     
     let words = [
@@ -181,7 +181,7 @@ const FirstGame = () => {
     const [showButton, setButton] = useState(false);
     const [showContainer2, setContainer2] = useState(false);
     const [showContainer1, setContainer1] = useState(true);
-    const [backgroundImage, setBackgroundImage] = useState('src/assets/ordena_y_gana_thumbnail.png'); // State for background image
+    const [backgroundImage, setBackgroundImage] = useState('public/ordena_y_gana_thumbnail.png'); // State for background image
 
     const divStyle = {
         backgroundImage: `url(${backgroundImage})`
@@ -252,14 +252,14 @@ const FirstGame = () => {
     };
 
     const handleTimeOut = () => {
-        setBackgroundImage("src/assets/paralaproxima-03.png")
+        setBackgroundImage("public/paralaproxima-03.png")
         setContainer1(true)
         setContainer2(false)
 
     };
 
     const winGame = () => {
-        setBackgroundImage("src/assets/felicidades-03.png")
+        setBackgroundImage("public/felicidades-03.png")
         setContainer1(true)
         setContainer2(false)
     };
