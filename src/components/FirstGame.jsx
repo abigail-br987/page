@@ -290,7 +290,7 @@ const FirstGame = () => {
             <div id="word_scramble_game" style={divStyle}>
                 {!showButton && (
                 <div >
-                            <img src="src/assets/start_button_image.png" className="startBtn" alt="Start Button" onClick={startGame}></img>
+                            <img src="public/start_button_image.png" className="startBtn" alt="Start Button" onClick={startGame}></img>
                         <div/>
                     </div>
                 )}

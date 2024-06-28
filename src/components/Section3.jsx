@@ -7,7 +7,7 @@ function Section3() {
     return(
         <section className="flexbox-section">
         <div className="left-container">
-            <img className="left-image border" src="src/assets/posters.png" alt="Posters Photo" />
+            <img className="left-image border" src="public/posters.png" alt="Posters Photo" />
         </div>
         <div className="right-container">
             <h1>Diseños que inspiran</h1>

@@ -7,7 +7,7 @@
     
 @font-face {
     font-family: 'Cheese';
-    src: url('assets/cheese.ttf') format('truetype');
+    src: url('public/cheese.ttf') format('truetype');
 }
 
 @font-face {
@@ -47,7 +47,7 @@
     align-items: center;
     max-width:574px;
     flex-direction: column;
-    background-image: url("assets/pizarrajuego-09.png");
+    background-image: url("public/pizarrajuego-09.png");
     background-size: contain;
 }
 
@@ -93,7 +93,7 @@
         flex-direction: column;
     }
     #word_scramble_game {
-        max-width:100vw;
+        max-width:90vw;
         min-height: none;
     }
 }
